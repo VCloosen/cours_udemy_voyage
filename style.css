@@ -1,0 +1,300 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size:45px;
+    color:#444444;
+}
+h2{
+    color:#444;
+    font-size:55px;
+
+}
+h3
+{
+    font-size:30px;
+    color:#444;
+    text-transform:uppercase;
+}
+h4
+{
+    font-size:24px;
+    color:#444;
+    text-transform:uppercase;
+}
+p
+{
+    line-height:20px;
+    color:#777;
+}
+p small {
+    font-size:13px;
+    font-style:italic;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#444444;
+}
+.wrapper{
+    width:940px;
+    margin:0 auto;
+    padding:0 10px;
+}
+.orange
+{
+    color:#ff7a00;
+}
+
+.clear
+{
+    clear:both;
+}
+
+
+/* HEADER */
+header
+{
+    height:120px;
+}
+header h1
+{
+    float:left;
+    Margin-top:32px;
+}
+header nav 
+{
+    float:right;
+    margin-top:50px;
+}
+header nav ul li {
+    display:inline-block;
+    float:left;
+
+}
+header nav ul li a {
+    text-transform:uppercase;
+    font-weight:bold;
+    margin-right:20px;
+}
+
+/* MAIN IMAGE */
+#main-image
+{
+    height:580px;
+    background:url('image/main.jpg') center;
+}
+#main-image h2
+{
+    font-weight:normal;
+    text-transform:uppercase;
+    text-align: center;
+    padding:150px 0 40px 0;
+    margin-bottom: 20px;
+
+}
+.button-1
+{
+    display:block;
+    width:120px;
+    height:50px;
+    background:#ff7a00;
+    color:#fff;
+    font-size:20px;
+    margin:0 auto;
+    text-align:center;
+    line-height:50px;
+    border-radius:3px;
+    transition:all 0.5s;
+
+}
+
+.button-1:hover
+{
+    background:#02b8dd
+}
+
+/* STEPS */
+#steps h4
+{
+    text-transform:uppercase;
+    margin-bottom:20px;
+}
+#steps p
+{ 
+    margin-bottom:20px;
+}
+#steps ul 
+{
+    margin:80px 0;
+}
+#steps ul li 
+{
+    width:300px;
+    float:left;
+    padding-top:140px;
+    text-align:center;
+    margin-right:10px;
+}
+#steps-1 
+{
+    background:url('image/steps-icon-1.png') no-repeat top center;   
+}
+#steps-2  
+{
+    background:url('image/steps-icon-2.png') no-repeat top center;  
+}
+#steps-3  
+{
+    background:url('image/steps-icon-3.png') no-repeat top center;  
+}
+
+
+/* POSSIBILITIES */
+#Possibilities
+{
+    background-color:#efefef;
+    padding:60px 0;
+}
+#Possibilities article
+{
+    width:440px;
+    height:270px;
+    float:left;
+    border-radius:10px;
+    margin:10px;
+    overflow:hidden;
+
+}
+#Possibilities article div
+{
+    width:200px;
+    height:250px;
+    text-align:center;
+    background-color: rgba(250, 250, 250, 0.9);
+    padding:10px; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.button-2
+{
+    display:block;
+    width:100px;
+    height:30px;
+    background:#ff7a00;
+    color:#fff;
+    font-size:15px;
+    margin:0 auto;
+    text-align:center;
+    line-height:30px;
+    border-radius:3px;
+    transition:all 0.5s;
+} 
+.button-2:hover
+{
+    background:#02b8dd
+}
+#Possibilities article div h4
+{
+    margin:20px;
+    position: relative;
+}
+#Possibilities article div p
+{
+    margin:10px;
+}
+#Possibilities article div h4:after
+{
+   content:"";
+   width:150px;
+   height:2px;
+   background:rgba(68,68,68,0.3);
+   position:absolute;
+   left:0;
+   bottom:-17px;
+}
+
+/* CONTACT*/
+
+#contacts div
+{
+   height:270px;
+   padding:20px;
+   width:800px;
+   text-align:center;
+}
+#contacts div h3
+{
+   text-align:center;  
+}
+#contacts div p
+{
+   text-align:center;
+   font-size:13px;
+   padding:30px; 
+   position: relative; 
+   width:800px;
+}
+#contacts div p:before
+{
+   content:"";
+   width:400px;
+   height:2px;
+   background:rgba(68,68,68,0.3);
+   position:absolute;
+   left:calc(800px/4);
+   top:0px;
+}
+#contacts div form
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    flex-direction: row;
+}
+#contacts div form label
+{
+  margin:5px;
+}
+#contacts div form input
+{
+  margin:5px;
+}
+.button-3
+{
+    display:block;
+    width:50px;
+    height:30px;
+    background:#ff7a00;
+    color:#fff;
+    font-size:15px;
+    margin:0 auto;
+    text-align:center;
+    line-height:30px;
+    border-radius:3px;
+    transition:all 0.5s;
+} 
+.button-3:hover
+{
+    background:#02b8dd
+}
